@@ -38,7 +38,7 @@ export default function Home() {
       <main className="flex justify-center mx-2 mt-2 flex-1">
         <div className="bg-stone-950 rounded-lg border border-stone-700 w-full flex flex-col relative overflow-hidden min-h-[calc(100vh-1rem)]">
           {/* Background Image */}
-          <div className="absolute inset-0 z-0">
+          {/* <div className="absolute inset-0 z-0">
             <div
               className={`w-full h-full bg-cover bg-center bg-no-repeat transition-all duration-[10000ms] ease-out ${
                 isBackgroundLoaded ? 'opacity-100 scale-105' : 'opacity-0 scale-100 rotate-1'
@@ -53,7 +53,7 @@ export default function Home() {
 
           <div className="flex flex-1 items-center justify-center px-6 text-center relative z-10">
             <MainTitle />
-          </div>
+          </div> */}
 
           <div className="flex flex-1 flex-col items-center justify-center px-6 text-center relative z-10">
             <div className="max-w-4xl mx-auto">
